@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: georgia;
+	background-color: rgba(212,220,156);
+	background-image: url(images/blackgoose.png);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+#header {
+	background-image: url(images/purpledot.png), url(images/purpledot.png);
+	background-repeat: repeat-y;
+	background-position: left, right;
+	margin-left: 100px;
+	background-color: rgba(255,255,245,0.5);
+	margin-right: 100px;
+	height: 350px;
+	text-align: center;
+}
+.st {
+	font-family: Bree serif
+	color: purple;
+}
+#header ul li{
+	text-decoration: none;
+	list-style: none;
+}
+#header ul li a {
+	display: block;
+	text-decoration: none;
+	color: purple;
+	line-height: 35px;
+}
+#header a:hover {
+	color: #fff;
+}
+#sha {
+	position: absolute;
+	right: 15%;
+	top: 40%;
+}
+#appetizers {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.app {
+	font-family: Bree serif;
+	text-align: center;
+	color: #cc6600;
+	letter-spacing: 10px;
+}
+.rd {
+	text-align: center;
+}
+.men {
+	line-height: 30px;
+}
+dd {
+	margin-left: 50px;
+}
+#entrees {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+#toast {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.rd span{
+	color: purple;
+}
+#dessert {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.la {
+	line-height: 20%;
+	margin-left: 100px;
+	font-size: 14px;
+}

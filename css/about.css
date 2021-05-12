@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Girassol', cursive;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+#about {
+	width: 100%;
+	height: auto;
+	background: #36203A;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+}
+#about .circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	margin-top: 5px;
+	background: hotpink;
+}
+#about .circle1 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	background: hotpink;
+	bottom: 0;
+	margin-left: 60px;
+	margin-bottom: -30px;
+}
+#bar {
+	width: 100%;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	top: 0px;
+	position: absolute;
+}
+.logo {
+	font-size: 40px;
+	line-height: 60px;
+	padding-left: 40px;
+	color: hotpink;
+	position: absolute;
+}
+.menu {
+	flex: 1;
+	margin: 10px 0;
+}
+.menu ul {
+	display: inline;
+	margin-left: 60%;
+}
+.menu ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 12px 10px;
+}
+.menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+}
+.menu ul li a:hover {
+	color: hotpink;
+}
+.info {
+	padding: 0 100px;
+	height: auto;
+	justify-content: center;
+	color: #fff;
+}
+.info h1 {
+	font-size: 38px;
+	text-align: center;
+	color: hotpink;
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.content {
+	text-align: center;
+	position: relative;
+	max-width: 800px;
+	padding: 50px;
+	background: rgba(255,255,255,0.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+	top: 20px;
+	left: 15%;
+}
+.content p {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackstone Bistro: Pizza-on-Demand</title>
+	<link rel="stylesheet" href="style2.css">
+	<meta name="description" content="Black Goose Bakery"/>
+		<meta http-equip="author" content="Kim Charlene C. Lozano">
+</head>
+<body>
+	<div id="header">
+			
+			<div id="nav">
+				<ul>
+					<li><a href="index.html" target="_self">HOME</a></li>
+					<li><a href="menu.html" target="_self">MENU</a></li>
+					<li><a href="form.html" target="_self">FORMS</a></li>
+				</ul>
+			</div>
+
+			<img src ="images/award.png" id="award">
+			<img src ="images/bgb_logo.png" id="bgb">
+			<p id="p1"><i>The delicious baked goods you love at Black Goose Bistro... now available to go!</i></p>
+	</div>
+
+		<div id="main">
+			<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+			<p>Our 12" wood fixed pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+			<form>
+				<fieldset>
+					<legend>Your Information</legend>
+
+						<div>
+							<label for="name" class="info">Name:</label>
+							<input type="text" id="name" name="name" />
+						</div>
+
+						<div>
+							<label for="address" class="info">Address:</label>
+							<input type="text" id="address" name="address" />
+						</div>
+
+						<div>
+							<label for="tel" class="info">Tel.No:</label>
+							<input type="text" id="tel" name="tel" />
+						</div>
+
+						<div>
+							<label for="email" class="info">Email:</label>
+							<input type="text" id="email" name="email" />
+						</div>
+
+						<div>
+							<label for="delivery" class="info">Delivery instruction:</label><br>
+							<textarea name="comments" id="comments">No more than 400 characters long</textarea>
+						</div>
+
+				</fieldset>
+				</fieldset>
+			</form>
+
+			<h2>Design your dream pizza:</h2>
+
+			<form>
+				<fieldset>
+					<legend>Pizza Specs</legend>
+
+				<fieldset>
+					<legend>Crust<i>(Choose one):</i></legend>
+						<br>
+						<form action="" method="post">
+  							<input type="checkbox" name="cru" value="classic" /> Classic white<br>
+  							<input type="checkbox" name="cru" value="multi" /> Multigrain<br>
+  							<input type="checkbox" name="cru" value="cheese" /> Cheese-stuffed crust<br>
+  							<input type="checkbox" name="cru" value="gluten" /> Gluten-free<br><br><br>
+						</form>
+				</fieldset>
+			</form>	
+				<fieldset>
+					<legend>Toppings<i>(Choose as many as you want):</i></legend>
+
+						<form action="" method="post">
+							<br>
+							<input type="checkbox" checked="checked" name="cru" value="red" /> Red sauce<br>
+							<input type="checkbox" name="cru" value="red" /> White sauce<br>
+							<input type="checkbox" name="cru" value="red" /> Mozzarella Cheese<br>
+							<input type="checkbox" name="cru" value="red" /> Pepperoni<br>
+							<input type="checkbox" name="cru" value="red" /> Mushrooms<br>
+							<input type="checkbox" name="cru" value="red" /> Peppers<br>
+							<input type="checkbox" name="cru" value="red" /> Anchovies<br><br>
+							</form>
+				</fieldset>	
+			
+
+			<fieldset>
+					<legend>Number</i></legend>
+						<form action="">
+							<label for="pizzas">How many pizzas:</label>
+								<select id="pizzas" name="pizzas">
+  									<option value="one">1</option>
+  									<option value="two">2</option>
+  									<option value="three">3</option>
+  									<option value="four">4</option>
+  									<option value="five">5</option>
+								</select>
+						</form>
+			</fieldset>
+			</div>
+			
+			<br>
+			<button type="button" onclick="submit">Bring me a pizza!</button>
+			<input type="reset" value="Reset"><br><br>
+			
+
+			<div id="footer">
+			<p>All content copyright &copy; 2017, Black Goose Bistro.</p>
+			</div>
+</body>
+</html>

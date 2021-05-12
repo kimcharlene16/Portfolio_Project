@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Girassol', cursive;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+#feed {
+	width: 100%;
+	height: 130%;
+	background: #36203A;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+}
+#feed .circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	margin-top: 5px;
+	background: hotpink;
+}
+#feed .circle1 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	background: hotpink;
+	margin-left: 60px;
+	margin-top: 35%;
+}
+.last {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.last p {
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+.bot {
+	position: absolute;
+	top: 110%;
+	left: 40%;
+	padding: 10px 25px;
+	background-color: hotpink;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.bot:hover {
+	background-color: hotpink;
+	color: black;
+	font-weight: 600;
+	border: 1px solid hotpink;
+}
+#footer {
+	padding: 10px 0 20px;
+	background: hotpink;
+	position: absolute;
+	width: 100%;
+	top: 70%;
+}
+#tribute-link {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#footer-left, #footer-right {
+	flex-basis: 45%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+#footer-right {
+	text-align: right;
+}
+#footer-left a {
+	font-size: 20px;
+	color: black;
+}
+#tribute-link h1 {
+	margin: 10px 0;
+}
+#tribute-link p {
+	line-height: 35px;
+}
+#tribute-link a:hover {
+	color: blue;
+}

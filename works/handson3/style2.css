@@ -1,0 +1,103 @@
+body
+{
+	margin: 0;
+	font-family: Georgia, Serif;
+	background-color: white;
+}
+
+#header{
+	background-image: url(images/croissants_banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bgb
+{
+	margin-left: 40%;
+	padding-top: 50px;
+}
+#award
+{
+	padding-left: 50px;
+	position: fixed;
+	top: 7%;
+}
+#nav
+{
+	background-color: rgba(120,63,39,255);
+	padding: 5px;
+	font-family: Verdana;
+}
+
+#nav ul{
+	text-align: center;
+	padding: 0;
+	list-style-type: none;
+}
+
+#nav ul li{
+	display: inline-block;
+}
+
+#nav ul li a{
+	margin-left: 10px;
+	padding: 8px;
+	text-decoration: none;
+	color: rgba(204,133,47,255);
+	border: 2px solid rgba(204,133,47,255);
+	border-radius: 8px;
+}
+#nav ul li a:hover {
+	color: white;
+	border-color: white;
+}
+#p1{
+	color: white;
+	line-height: 40px;
+	height: 90px;
+ 	margin-left: 27%;
+ 	font-size: 18px;
+}
+.info {
+	margin-left: 50px;
+}
+
+#fdbk textarea {
+    max-width: 500%;
+    width: 500%;
+    font-size: 15px;
+    overflow: visible;
+}
+#comments {
+	height: 90px;
+	width: 430px;
+	color: grey;
+	font-size: 14px;
+	margin-left: 50px;
+}
+fieldset{
+	background-color: #f6f3ed;
+}
+input[type='checkbox']{
+	margin-left: 50px;
+}
+#footer{
+	background-color: rgba(120,63,39,255);
+	padding: 20px;
+	color: white;
+	text-align: center;
+	margin-top: auto;
+}
+
+button{
+	margin-right: 3px;
+}
+#footer{
+	background-color: rgba(120,63,39,255);
+	padding: 10px;
+	text-align: center;
+	margin-top: auto;
+}
+
+#footer p {
+	color: #fff;
+}
